@@ -11,8 +11,8 @@ import (
 )
 
 var(
-    Token = "Bot NDAzNTY0MjY5OTY4NDI0OTYw.DUOj_A.k_WxYCcdTXgpYVM9bABkJqSuULY" //"Bot"という接頭辞がないと401 unauthorizedエラーが起きます
-    BotName = "<@403564269968424960>"
+    Token = "Bot Token" //"Bot"という接頭辞がないと401 unauthorizedエラーが起きます
+    BotName = "<@ID>"
     stopBot = make(chan bool)
     CmdPrefix = "?"
     cmds = botcmds.GetCommands()
